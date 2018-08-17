@@ -1,0 +1,40 @@
+{
+    "editor.rulers": [100],
+    "editor.minimap.enabled": false,
+    "editor.renderLineHighlight": "none",
+    "editor.autoClosingBrackets": false,
+
+    "diffEditor.renderSideBySide": false,
+
+    "extensions.ignoreRecommendations": true,
+    "extensions.showRecommendationsOnlyOnDemand": true,
+
+    "files.trimTrailingWhitespace": true,
+    "files.insertFinalNewline": true,
+    "files.trimFinalNewlines": true,
+    "files.autoSave": "onFocusChange",
+
+    "telemetry.enableTelemetry": false,
+
+    "window.titleBarStyle": "custom",
+
+    "workbench.colorTheme": "Default Light+",
+    "workbench.startupEditor": "none",
+    "workbench.statusBar.feedback.visible": false,
+
+    "terminal.integrated.fontSize": 12, // TODO: https://github.com/Microsoft/vscode/issues/35901
+    "terminal.integrated.experimentalRestore": true,
+
+    "git.confirmSync": false,
+
+    "python.pythonPath": "~/miniconda3/envs/py36/bin/python",
+    "python.formatting.provider": "none",
+    "python.sortImports.args": ["--line-width=100", "--balanced", "--multi-line=2"],
+    "python.linting.pylintArgs": [
+        "--disable=design",
+        "--disable=line-too-long,invalid-name,too-many-lines,missing-docstring,global-statement",
+        "--disable=fixme",
+    ],
+
+    "go.goroot": "~/miniconda3/envs/go/go",
+}
