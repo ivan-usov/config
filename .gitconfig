@@ -1,0 +1,19 @@
+[user]
+	name = Ivan Usov
+	email = ivan.usov@psi.ch
+[push]
+	default = matching
+[core]
+	autocrlf = input
+	editor = code --wait
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[merge]
+	conflictstyle = diff3
+[diff]
+    tool = default-difftool
+[difftool "default-difftool"]
+    cmd = code --wait --diff $LOCAL $REMOTE
