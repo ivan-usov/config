@@ -2,7 +2,8 @@
     "editor.rulers": [100],
     "editor.minimap.enabled": false,
     "editor.renderLineHighlight": "none",
-    "editor.autoClosingBrackets": false,
+    "editor.autoClosingBrackets": "never",
+    "editor.autoClosingQuotes": "never",
 
     "diffEditor.renderSideBySide": false,
 
@@ -21,9 +22,9 @@
     "workbench.colorTheme": "Default Light+",
     "workbench.startupEditor": "none",
     "workbench.statusBar.feedback.visible": false,
+    "workbench.settings.editor": "json",
 
-    "terminal.integrated.fontSize": 12, // TODO: https://github.com/Microsoft/vscode/issues/35901
-    "terminal.integrated.experimentalRestore": true,
+    "terminal.integrated.fontSize": 13, // TODO: https://github.com/Microsoft/vscode/issues/35901
 
     "git.confirmSync": false,
 
