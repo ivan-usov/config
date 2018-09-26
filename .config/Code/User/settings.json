@@ -37,5 +37,16 @@
         "--disable=fixme",
     ],
 
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+        {
+            "scope": "string.quoted.docstring.multi.python",
+            "settings": {
+                "foreground": "#808080"
+            }
+        },
+        ]
+    },
+
     "go.goroot": "~/miniconda3/envs/go/go",
 }
