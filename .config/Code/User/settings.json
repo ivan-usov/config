@@ -18,6 +18,7 @@
     "telemetry.enableTelemetry": false,
 
     "window.titleBarStyle": "custom",
+    "window.zoomLevel": 0,
 
     "workbench.colorTheme": "Default Light+",
     "workbench.startupEditor": "none",
