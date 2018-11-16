@@ -2,8 +2,6 @@
     "editor.rulers": [100],
     "editor.minimap.enabled": false,
     "editor.renderLineHighlight": "none",
-    "editor.autoClosingBrackets": "never",
-    "editor.autoClosingQuotes": "never",
 
     "diffEditor.renderSideBySide": false,
 
