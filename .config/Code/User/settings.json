@@ -2,6 +2,7 @@
     "editor.rulers": [100],
     "editor.minimap.enabled": false,
     "editor.renderLineHighlight": "none",
+    "editor.renderFinalNewline": true,
 
     "diffEditor.renderSideBySide": false,
 
