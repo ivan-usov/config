@@ -55,4 +55,6 @@
     "go.goroot": "~/miniconda3/envs/go/go",
 
     "C_Cpp.clang_format_style": "{BasedOnStyle: Google, IndentWidth: 4, ColumnLimit: 100}",
+
+    "autoDocstring.docstringFormat": "google",
 }
