@@ -4,6 +4,7 @@
     "editor.renderLineHighlight": "none",
     "editor.renderFinalNewline": true,
 
+    "diffEditor.ignoreTrimWhitespace": false,
     "diffEditor.renderSideBySide": false,
 
     "extensions.ignoreRecommendations": true,
