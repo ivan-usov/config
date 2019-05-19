@@ -39,7 +39,8 @@
     "python.sortImports.args": ["--line-width=100", "--multi-line=3", "-o=bokeh"],
     "python.linting.pylintArgs": [
         "--disable=design",
-        "--disable=line-too-long,invalid-name,too-many-lines,missing-docstring,global-statement",
+        "--disable=format",
+        "--disable=invalid-name,missing-docstring,global-statement",
         "--disable=fixme,logging-fstring-interpolation",
     ],
 
