@@ -34,7 +34,8 @@
     "git.confirmSync": false,
 
     "python.pythonPath": "~/miniconda3/envs/py36/bin/python",
-    "python.formatting.provider": "none",
+    "python.formatting.provider": "black",
+    "python.formatting.blackArgs": ["--line-length=100", "--skip-string-normalization"],
     "python.sortImports.args": ["--line-width=100", "--balanced", "--multi-line=2"],
     "python.linting.pylintArgs": [
         "--disable=design",
