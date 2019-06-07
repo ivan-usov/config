@@ -1,4 +1,6 @@
 {
+    "breadcrumbs.enabled": false,
+
     "editor.rulers": [100],
     "editor.minimap.enabled": false,
     "editor.renderLineHighlight": "none",
