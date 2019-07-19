@@ -61,4 +61,8 @@
     "C_Cpp.clang_format_style": "{BasedOnStyle: Google, IndentWidth: 4, ColumnLimit: 100}",
 
     "autoDocstring.docstringFormat": "google",
+    "remote.SSH.defaultExtensions": [
+        "ms-python.python",
+        "donjayamanne.githistory",
+    ],
 }
