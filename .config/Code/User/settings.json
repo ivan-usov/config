@@ -35,6 +35,7 @@
     "git.confirmSync": false,
 
     "python.pythonPath": "~/miniconda3/envs/py36/bin/python",
+    "python.dataScience.askForKernelRestart": false,
     "python.formatting.provider": "black",
     "python.formatting.blackArgs": ["--line-length=100", "--skip-string-normalization"],
     "python.sortImports.args": ["--line-width=100", "--multi-line=3", "-o=bokeh"],
