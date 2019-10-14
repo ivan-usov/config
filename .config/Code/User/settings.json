@@ -10,6 +10,7 @@
     "diffEditor.renderSideBySide": false,
     "extensions.ignoreRecommendations": true,
     "extensions.showRecommendationsOnlyOnDemand": true,
+    "explorer.confirmDragAndDrop": false,
     "explorer.openEditors.visible": 0,
     "files.trimTrailingWhitespace": true,
     "files.insertFinalNewline": true,
