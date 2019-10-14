@@ -63,4 +63,5 @@
         "donjayamanne.githistory",
     ],
     "remote.SSH.lockfilesInTmp": true,
+    "scm.defaultViewMode": "tree",
 }
