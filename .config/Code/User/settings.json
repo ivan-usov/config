@@ -64,4 +64,5 @@
     ],
     "remote.SSH.lockfilesInTmp": true,
     "scm.defaultViewMode": "tree",
+    "git.untrackedChanges": "separate",
 }
