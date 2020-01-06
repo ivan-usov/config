@@ -32,7 +32,6 @@
     "python.formatting.provider": "black",
     "python.formatting.blackArgs": [
         "--line-length=100",
-        "--skip-string-normalization"
     ],
     "python.sortImports.args": [
         "--line-width=100",
