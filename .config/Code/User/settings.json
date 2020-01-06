@@ -65,4 +65,5 @@
     "remote.SSH.lockfilesInTmp": true,
     "scm.defaultViewMode": "tree",
     "git.untrackedChanges": "separate",
+    "terminal.integrated.rendererType": "experimentalWebgl",
 }
