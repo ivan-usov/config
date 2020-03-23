@@ -27,6 +27,7 @@
     "workbench.settings.useSplitJSON": true,
     "terminal.integrated.fontSize": 13, // TODO: https://github.com/Microsoft/vscode/issues/35901
     "git.confirmSync": false,
+    "git.autofetch": true,
     "python.pythonPath": "~/miniconda3/envs/py36/bin/python",
     "python.dataScience.askForKernelRestart": false,
     "python.formatting.provider": "black",
