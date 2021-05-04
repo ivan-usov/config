@@ -5,8 +5,8 @@
     ],
     "editor.minimap.enabled": false,
     "editor.renderLineHighlight": "none",
+    "editor.folding": false,
     "diffEditor.ignoreTrimWhitespace": false,
-    "diffEditor.renderSideBySide": false,
     "extensions.ignoreRecommendations": true,
     "explorer.confirmDragAndDrop": false,
     "files.trimTrailingWhitespace": true,
@@ -16,12 +16,12 @@
     "telemetry.enableTelemetry": false,
     "workbench.colorTheme": "Default Light+",
     "window.customMenuBarAltFocus": false,
+    "workbench.editor.decorations.badges": false,
     "workbench.startupEditor": "none",
     "workbench.settings.editor": "json",
     "workbench.panel.defaultLocation": "right",
     "workbench.settings.useSplitJSON": true,
     "git.confirmSync": false,
-    "python.pythonPath": "~/miniconda3/envs/py36/bin/python",
     "python.formatting.provider": "black",
     "python.formatting.blackArgs": [
         "--line-length=100",
@@ -65,4 +65,13 @@
     "jupyter.askForKernelRestart": false,
     "terminal.integrated.scrollback": 100000,
     "workbench.editor.wrapTabs": true,
+    "remote.SSH.useLocalServer": true,
+    "remote.SSH.suppressWindowsSshWarning": true,
+    "workbench.editorAssociations": [
+        {
+            "viewType": "jupyter.notebook.ipynb",
+            "filenamePattern": "*.ipynb"
+        }
+    ],
+    "diffEditor.renderSideBySide": false,
 }
