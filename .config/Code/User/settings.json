@@ -56,7 +56,6 @@
     "git.untrackedChanges": "separate",
     "terminal.integrated.inheritEnv": false,
     "git.autofetch": true,
-    "terminal.integrated.shell.windows": "C:\\Windows\\System32\\wsl.exe",
     "python.showStartPage": false,
     "terminal.integrated.commandsToSkipShell": [
         "-workbench.action.debug.start"
@@ -67,11 +66,11 @@
     "workbench.editor.wrapTabs": true,
     "remote.SSH.useLocalServer": true,
     "remote.SSH.suppressWindowsSshWarning": true,
-    "workbench.editorAssociations": [
-        {
-            "viewType": "jupyter.notebook.ipynb",
-            "filenamePattern": "*.ipynb"
-        }
-    ],
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter-notebook"
+    },
     "diffEditor.renderSideBySide": false,
+    "terminal.integrated.tabs.enabled": false,
+    "python.analysis.autoImportCompletions": false,
 }
+
