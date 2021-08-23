@@ -56,7 +56,6 @@
     "git.untrackedChanges": "separate",
     "terminal.integrated.inheritEnv": false,
     "git.autofetch": true,
-    "python.showStartPage": false,
     "terminal.integrated.commandsToSkipShell": [
         "-workbench.action.debug.start"
     ],
@@ -72,5 +71,6 @@
     "diffEditor.renderSideBySide": false,
     "terminal.integrated.tabs.enabled": false,
     "python.analysis.autoImportCompletions": false,
+    "jupyter.searchForJupyter": false,
+    "git.followTagsWhenSync": true,
 }
-
