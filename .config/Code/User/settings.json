@@ -73,4 +73,6 @@
     "jupyter.searchForJupyter": false,
     "git.followTagsWhenSync": true,
     "editor.bracketPairColorization.enabled": true,
+    "git.closeDiffOnOperation": true,
+    "window.restoreFullscreen": true,
 }
