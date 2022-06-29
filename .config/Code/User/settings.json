@@ -81,4 +81,5 @@
     "git.allowForcePush": true,
     "terminal.integrated.defaultProfile.windows": "Command Prompt",
     "window.titleBarStyle": "custom",
+    "terminal.integrated.gpuAcceleration": "canvas",
 }
