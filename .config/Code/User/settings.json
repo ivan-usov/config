@@ -22,8 +22,10 @@
     "workbench.panel.defaultLocation": "right",
     "workbench.settings.useSplitJSON": true,
     "git.confirmSync": false,
+    "python.formatting.provider": "none",
     "[python]": {
-        "editor.defaultFormatter": "ms-python.black-formatter"
+        "editor.defaultFormatter": "ms-python.black-formatter",
+        "editor.formatOnSave": true
     },
     "black-formatter.args": [
         "--line-length=100",
@@ -82,4 +84,14 @@
     "terminal.integrated.defaultProfile.windows": "Command Prompt",
     "window.titleBarStyle": "custom",
     "terminal.integrated.gpuAcceleration": "canvas",
+    "git.showActionButton": {
+        "commit": false,
+        "publish": false,
+        "sync": false
+    },
+    "terminal.integrated.scrollback": 10000,
+    "workbench.layoutControl.enabled": false,
+    "terminal.integrated.enableMultiLinePasteWarning": false,
+    "git.ignoreLegacyWarning": true,
+    "git.suggestSmartCommit": false,
 }
