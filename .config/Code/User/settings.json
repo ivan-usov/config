@@ -25,12 +25,17 @@
     "python.formatting.provider": "none",
     "[python]": {
         "editor.defaultFormatter": "ms-python.black-formatter",
-        "editor.formatOnSave": true
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": true
+        },
     },
     "black-formatter.args": [
         "--line-length=100",
+        "--skip-magic-trailing-comma",
     ],
-    "python.sortImports.args": [
+    "isort.args": [
+        "--profile=black",
         "--line-width=100",
         "--multi-line=3",
         "--trailing-comma",
@@ -56,6 +61,7 @@
         "ms-python.python",
         "ms-python.pylint",
         "ms-python.black-formatter",
+        "ms-python.isort",
         "donjayamanne.githistory",
     ],
     "remote.SSH.lockfilesInTmp": true,
