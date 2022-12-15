@@ -39,7 +39,6 @@
         "--line-width=100",
         "--multi-line=3",
         "--trailing-comma",
-        "-o=bokeh",
     ],
     "pylint.args": [
         "--disable=design",
