@@ -18,7 +18,6 @@
     "window.customMenuBarAltFocus": false,
     "workbench.editor.decorations.badges": false,
     "workbench.startupEditor": "none",
-    "workbench.settings.editor": "json",
     "workbench.panel.defaultLocation": "right",
     "workbench.settings.useSplitJSON": true,
     "git.confirmSync": false,
@@ -71,7 +70,6 @@
         "-workbench.action.debug.start"
     ],
     "jupyter.askForKernelRestart": false,
-    "terminal.integrated.scrollback": 100000,
     "workbench.editor.wrapTabs": true,
     "remote.SSH.useLocalServer": true,
     "remote.SSH.suppressWindowsSshWarning": true,
