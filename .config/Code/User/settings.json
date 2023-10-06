@@ -1,49 +1,24 @@
 {
-    "breadcrumbs.enabled": false,
-    "editor.rulers": [
-        100
-    ],
-    "editor.minimap.enabled": false,
-    "editor.renderLineHighlight": "none",
-    "editor.folding": false,
-    "diffEditor.ignoreTrimWhitespace": false,
-    "extensions.ignoreRecommendations": true,
-    "explorer.confirmDragAndDrop": false,
-    "files.trimTrailingWhitespace": true,
-    "files.insertFinalNewline": true,
-    "files.trimFinalNewlines": true,
-    "files.autoSave": "onFocusChange",
-    "telemetry.telemetryLevel": "off",
-    "workbench.colorTheme": "Default Light+",
-    "window.customMenuBarAltFocus": false,
-    "workbench.editor.decorations.badges": false,
-    "workbench.startupEditor": "none",
-    "workbench.panel.defaultLocation": "right",
-    "workbench.settings.useSplitJSON": true,
-    "git.confirmSync": false,
-    "python.formatting.provider": "none",
     "[python]": {
-        "editor.defaultFormatter": "ms-python.black-formatter",
-        "editor.formatOnSave": true,
         "editor.codeActionsOnSave": {
             "source.organizeImports": true
         },
+        "editor.defaultFormatter": "ms-python.black-formatter",
+        "editor.formatOnSave": true
     },
     "black-formatter.args": [
         "--line-length=100",
         "--skip-magic-trailing-comma",
     ],
-    "isort.args": [
-        "--profile=black",
-        "--line-width=100",
-        "--multi-line=3",
-        "--trailing-comma",
-    ],
-    "pylint.args": [
-        "--disable=design",
-        "--disable=format",
-        "--disable=invalid-name,missing-docstring,global-statement",
-        "--disable=fixme,logging-fstring-interpolation",
+    "breadcrumbs.enabled": false,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "diffEditor.renderSideBySide": false,
+    "editor.bracketPairColorization.enabled": true,
+    "editor.folding": false,
+    "editor.minimap.enabled": false,
+    "editor.renderLineHighlight": "none",
+    "editor.rulers": [
+        100
     ],
     "editor.tokenColorCustomizations": {
         "textMateRules": [
@@ -52,9 +27,45 @@
                 "settings": {
                     "foreground": "#808080"
                 }
-            },
+            }
         ]
     },
+    "explorer.confirmDragAndDrop": false,
+    "extensions.ignoreRecommendations": true,
+    "files.autoSave": "onFocusChange",
+    "files.insertFinalNewline": true,
+    "files.trimFinalNewlines": true,
+    "files.trimTrailingWhitespace": true,
+    "git.allowForcePush": true,
+    "git.autofetch": true,
+    "git.closeDiffOnOperation": true,
+    "git.confirmSync": false,
+    "git.followTagsWhenSync": true,
+    "git.ignoreLegacyWarning": true,
+    "git.showActionButton": {
+        "commit": false,
+        "publish": false,
+        "sync": false
+    },
+    "git.suggestSmartCommit": false,
+    "git.untrackedChanges": "separate",
+    "isort.args": [
+        "--profile=black",
+        "--line-width=100",
+        "--multi-line=3",
+        "--trailing-comma",
+    ],
+    "jupyter.askForKernelRestart": false,
+    "pylint.args": [
+        "--disable=design",
+        "--disable=format",
+        "--disable=invalid-name,missing-docstring,global-statement",
+        "--disable=fixme,logging-fstring-interpolation",
+    ],
+    "python.analysis.autoImportCompletions": false,
+    "python.formatting.provider": "none",
+    "remote.autoForwardPorts": false,
+    "remote.SSH.connectTimeout": 30,
     "remote.SSH.defaultExtensions": [
         "ms-python.python",
         "ms-python.pylint",
@@ -62,39 +73,29 @@
         "ms-python.isort",
         "donjayamanne.githistory",
     ],
-    "remote.SSH.lockfilesInTmp": true,
-    "git.untrackedChanges": "separate",
-    "terminal.integrated.inheritEnv": false,
-    "git.autofetch": true,
+    "remote.SSH.maxReconnectionAttempts": 0,
+    "remote.SSH.suppressWindowsSshWarning": true,
+    "remote.SSH.useLocalServer": true,
+    "telemetry.telemetryLevel": "off",
     "terminal.integrated.commandsToSkipShell": [
         "-workbench.action.debug.start"
     ],
-    "jupyter.askForKernelRestart": false,
+    "terminal.integrated.defaultProfile.windows": "Command Prompt",
+    "terminal.integrated.enablePersistentSessions": false,
+    "terminal.integrated.gpuAcceleration": "canvas",
+    "terminal.integrated.localEchoEnabled": "off",
+    "terminal.integrated.scrollback": 10000,
+    "terminal.integrated.tabs.enabled": false,
+    "window.customMenuBarAltFocus": false,
+    "window.titleBarStyle": "custom",
+    "workbench.colorTheme": "Default Light+",
+    "workbench.editor.decorations.badges": false,
     "workbench.editor.wrapTabs": true,
-    "remote.SSH.useLocalServer": true,
-    "remote.SSH.suppressWindowsSshWarning": true,
-    "remote.autoForwardPorts": false,
     "workbench.editorAssociations": {
         "*.ipynb": "jupyter-notebook"
     },
-    "diffEditor.renderSideBySide": false,
-    "terminal.integrated.tabs.enabled": false,
-    "python.analysis.autoImportCompletions": false,
-    "git.followTagsWhenSync": true,
-    "editor.bracketPairColorization.enabled": true,
-    "git.closeDiffOnOperation": true,
-    "git.allowForcePush": true,
-    "terminal.integrated.defaultProfile.windows": "Command Prompt",
-    "window.titleBarStyle": "custom",
-    "terminal.integrated.gpuAcceleration": "canvas",
-    "git.showActionButton": {
-        "commit": false,
-        "publish": false,
-        "sync": false
-    },
-    "terminal.integrated.scrollback": 10000,
     "workbench.layoutControl.enabled": false,
-    "terminal.integrated.enableMultiLinePasteWarning": false,
-    "git.ignoreLegacyWarning": true,
-    "git.suggestSmartCommit": false,
+    "workbench.panel.defaultLocation": "right",
+    "workbench.settings.useSplitJSON": true,
+    "workbench.startupEditor": "none"
 }
