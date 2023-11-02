@@ -11,6 +11,8 @@
         "--skip-magic-trailing-comma",
     ],
     "breadcrumbs.enabled": false,
+    "debug.toolBarLocation": "commandCenter",
+    "dev.containers.dockerPath": "podman",
     "diffEditor.ignoreTrimWhitespace": false,
     "diffEditor.renderSideBySide": false,
     "editor.bracketPairColorization.enabled": true,
@@ -63,7 +65,6 @@
         "--disable=fixme,logging-fstring-interpolation",
     ],
     "python.analysis.autoImportCompletions": false,
-    "python.formatting.provider": "none",
     "remote.autoForwardPorts": false,
     "remote.SSH.connectTimeout": 30,
     "remote.SSH.defaultExtensions": [
