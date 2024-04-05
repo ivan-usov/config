@@ -1,7 +1,7 @@
 {
     "[python]": {
         "editor.codeActionsOnSave": {
-            "source.organizeImports": true
+            "source.organizeImports": "always"
         },
         "editor.defaultFormatter": "ms-python.black-formatter",
         "editor.formatOnSave": true
@@ -12,10 +12,8 @@
     ],
     "breadcrumbs.enabled": false,
     "debug.toolBarLocation": "commandCenter",
-    "dev.containers.dockerPath": "podman",
     "diffEditor.ignoreTrimWhitespace": false,
     "diffEditor.renderSideBySide": false,
-    "editor.bracketPairColorization.enabled": true,
     "editor.folding": false,
     "editor.minimap.enabled": false,
     "editor.renderLineHighlight": "none",
@@ -40,7 +38,6 @@
     "files.trimTrailingWhitespace": true,
     "git.allowForcePush": true,
     "git.autofetch": true,
-    "git.closeDiffOnOperation": true,
     "git.confirmSync": false,
     "git.followTagsWhenSync": true,
     "git.ignoreLegacyWarning": true,
@@ -64,7 +61,6 @@
         "--disable=invalid-name,missing-docstring,global-statement",
         "--disable=fixme,logging-fstring-interpolation",
     ],
-    "python.analysis.autoImportCompletions": false,
     "remote.autoForwardPorts": false,
     "remote.SSH.connectTimeout": 30,
     "remote.SSH.defaultExtensions": [
@@ -75,20 +71,19 @@
         "donjayamanne.githistory",
     ],
     "remote.SSH.maxReconnectionAttempts": 0,
-    "remote.SSH.suppressWindowsSshWarning": true,
     "remote.SSH.useLocalServer": true,
     "telemetry.telemetryLevel": "off",
     "terminal.integrated.commandsToSkipShell": [
         "-workbench.action.debug.start"
     ],
-    "terminal.integrated.defaultProfile.windows": "Command Prompt",
     "terminal.integrated.enablePersistentSessions": false,
-    "terminal.integrated.gpuAcceleration": "canvas",
     "terminal.integrated.localEchoEnabled": "off",
     "terminal.integrated.scrollback": 10000,
     "terminal.integrated.tabs.enabled": false,
     "window.customMenuBarAltFocus": false,
+    "window.customTitleBarVisibility": "auto",
     "window.titleBarStyle": "custom",
+    "workbench.activityBar.location": "top",
     "workbench.colorTheme": "Default Light+",
     "workbench.editor.decorations.badges": false,
     "workbench.editor.wrapTabs": true,
