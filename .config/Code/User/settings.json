@@ -71,7 +71,7 @@
         "donjayamanne.githistory",
     ],
     "remote.SSH.maxReconnectionAttempts": 0,
-    "remote.SSH.useLocalServer": true,
+    "remote.SSH.useExecServer": false,
     "telemetry.telemetryLevel": "off",
     "terminal.integrated.commandsToSkipShell": [
         "-workbench.action.debug.start"
