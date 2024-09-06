@@ -37,7 +37,7 @@
     "files.trimFinalNewlines": true,
     "files.trimTrailingWhitespace": true,
     "git.allowForcePush": true,
-    "git.autofetch": true,
+    "git.autofetch": "all",
     "git.confirmSync": false,
     "git.followTagsWhenSync": true,
     "git.ignoreLegacyWarning": true,
@@ -61,17 +61,16 @@
         "--disable=invalid-name,missing-docstring,global-statement",
         "--disable=fixme,logging-fstring-interpolation",
     ],
-    "remote.autoForwardPorts": false,
     "remote.SSH.connectTimeout": 30,
     "remote.SSH.defaultExtensions": [
         "ms-python.python",
         "ms-python.pylint",
         "ms-python.black-formatter",
         "ms-python.isort",
-        "donjayamanne.githistory",
     ],
     "remote.SSH.maxReconnectionAttempts": 0,
     "remote.SSH.useExecServer": false,
+    "remote.autoForwardPorts": false,
     "telemetry.telemetryLevel": "off",
     "terminal.integrated.commandsToSkipShell": [
         "-workbench.action.debug.start"
